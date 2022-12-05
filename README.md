@@ -3,7 +3,7 @@
 ### Hier ist der Umbau eines *innogy SmartHome Funkrouter (PSR)* zum *HM-Sys-sRP-Pl* beschrieben. 
 Maßgeblich ist die Arbeit von [pa-pa](https://github.com/pa-pa/AskSinPP) und [Jérôme](https://github.com/jp112sdl/Beispiel_AskSinPP/tree/master/examples/HM-Sys-sRP-Pl). Alle Dankesbekundungen gehören ihnen.
 
-![Ansicht HM-Sys-sRP-Pl_PSR] (pictures/front.png)
+![Ansicht HM-Sys-sRP-Pl_PSR](images/front_1024.png "Ansicht HM-Sys-sRP-Pl_PSR")
 
 [![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/) 
 
