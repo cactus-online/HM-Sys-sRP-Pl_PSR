@@ -5,6 +5,8 @@ Maßgeblich ist die Arbeit von [pa-pa](https://github.com/pa-pa/AskSinPP) und [J
 
 ![Ansicht HM-Sys-sRP-Pl_PSR](images/front_1024.png "Ansicht HM-Sys-sRP-Pl_PSR")
 
+Die nötigen Schritte sind im [Wiki](https://github.com/cactus-online/HM-Sys-sRP-Pl_PSR/wiki/Aufspielanleitung) festgehalten.
+
 [![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/) 
 
 Dieses Werk ist lizenziert unter einer [Creative Commons Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz](http://creativecommons.org/licenses/by-nc-sa/4.0/).
