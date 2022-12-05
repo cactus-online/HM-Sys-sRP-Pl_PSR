@@ -1,0 +1,30 @@
+--- HM-Sys-sRP-Pl.ino	2022-12-05 16:20:15.380895000 +0100
++++ HM-Sys-sRP-Pl_PSR.ino	2022-12-05 16:21:57.243546400 +0100
+@@ -3,7 +3,10 @@
+ // 2016-10-31 papa     Creative Commons - http://creativecommons.org/licenses/by-nc-sa/3.0/de/
+ // 2019-09-17 jp112sdl Creative Commons - http://creativecommons.org/licenses/by-nc-sa/3.0/de/
+ //- -----------------------------------------------------------------------------------------------------------------------
+-// ci-test=yes board=328p aes=no
++// ci-test=yes board=644p aes=no
++
++//#include "aes_secret.h"
++#define USE_HW_SERIAL
+ 
+ #define EI_NOTEXTERNAL
+ #include <EnableInterrupt.h>
+@@ -19,13 +22,13 @@
+ 
+ const struct DeviceInfo PROGMEM devinfo = {
+   {0x00, 0x76, 0x01},     // Device ID
+-  "REPEATER01",           // Device Serial
++  "PSR0000000",           // Device Serial
+   {0x00, 0x76},           // Device Model
+   0x10,                   // Firmware Version
+   0x40,                   // Device Type
+   {0x01, 0x00}            // Info Bytes
+ };
+-typedef AskSin<StatusLed<4>, NoBattery, Radio<AvrSPI<10, 11, 12, 13>, 2, 100>> Hal;
++typedef AskSin<StatusLed<0>, NoBattery, Radio<AvrSPI<4, 5, 6, 7>, 10i, 100>> Hal;
+ Hal hal;
+ 
+ DEFREGISTER(UReg0, MASTERID_REGS, DREG_COMPATIBILITY_MODE)
