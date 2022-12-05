@@ -24,7 +24,7 @@
    {0x01, 0x00}            // Info Bytes
  };
 -typedef AskSin<StatusLed<4>, NoBattery, Radio<AvrSPI<10, 11, 12, 13>, 2, 100>> Hal;
-+typedef AskSin<StatusLed<0>, NoBattery, Radio<AvrSPI<4, 5, 6, 7>, 10i, 100>> Hal;
++typedef AskSin<StatusLed<0>, NoBattery, Radio<AvrSPI<4, 5, 6, 7>, 10, 100>> Hal;
  Hal hal;
  
  DEFREGISTER(UReg0, MASTERID_REGS, DREG_COMPATIBILITY_MODE)
